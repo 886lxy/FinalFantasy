@@ -1,0 +1,249 @@
+/* 视频背景 */
+.back {
+   position: relative;
+   width: 100%;
+}
+.back h1 {
+   position: absolute;
+   left: 85px;
+   top: 90px;
+}
+.back_video {
+   width: 100%;
+   height: 100vh;
+}
+.back_video video {
+   width: 100%;
+   object-fit: fill;
+   height: 100%;
+}
+.back_ {
+   overflow: hidden;
+   width: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 72px;
+   background-color: rgba(0, 0, 0, .7);
+}
+.back_nav {
+   padding-top: 18px;
+   height: 72px;
+   text-align: center;
+}
+.back_:hover {
+   height: 315px;
+}
+.back_:hover .caidan {
+   display: block;
+}
+.back_nav_left {
+   float: left;
+}
+.back_navbox {
+   display: inline-block;
+   padding-left: 112px;
+}
+.back_navbox a {
+   float: left;
+   color: #999797;
+   font-size: 14px;
+   margin-right: 64px;
+}
+.back_navbox a:hover {
+   color: #fff;
+}
+.back_navbox a:last-child {
+   margin-right: 0;
+}
+.back_nav_right {
+   /* display: inline-block; */
+   float: right;
+   width: 225px;
+}
+.back_nav_right a {
+   display: inline-block;
+   width: 90px;
+   height: 30px;
+   line-height: 30px;
+   text-align: center;
+   color: #79caf2;
+   margin-left: 20px;
+   border: 1px solid #79caf2;
+}
+.back_nav_right a:hover {
+   border: none;
+   border-radius: 5px;
+   background: linear-gradient(to right, #3d4d99 0%, #3689b3 50%, #cc7a29 100%);
+}
+.back .caidan {
+   position: absolute;
+   padding-top: 40px;
+   width: 100%;
+   height: 250px;
+   top: 72px;
+   left: 0;
+   display: none;
+}
+.caidan_box {
+   float: left;
+   margin-left: 70px;
+   width: 351px;
+   text-align: center;
+}
+.caidan_box a img {
+   width: 100%;
+   height: 150px;
+}
+.caidan_box a p {
+   font-size: 16px;
+   color: rgba(169, 170, 171, 0.886);
+}
+.caidan_box a p:hover {
+   color: #fff;
+}
+.caidan_li {
+   position: absolute;
+   left: calc(50% - 355px / 2);
+   top: 35px;
+}
+.caidan_li ul {
+   float: left;
+   text-align: center;
+}
+.caidan_li ul:nth-child(1) {
+   margin-right: 45px;
+}
+.caidan_li ul:nth-child(2) {
+   margin-right: 60px;
+}
+.caidan_li ul:nth-child(3) {
+   margin-right: 65px;
+}
+.caidan_li ul a {
+   color: rgba(169, 170, 171, 0.886);
+}
+.caidan_li ul a:hover {
+   color: #fff;
+}
+.caidan_li ul li {
+   margin-bottom: 10px;
+}
+.back .back_triangle {
+   display: inline-block;
+   background: url(../img/headown.png) no-repeat;
+   width: 191px;
+   height: 25px;
+   position: absolute;
+   top: 72px;
+   left: calc(50% - 93px);
+}
+.back_contbox {
+   overflow: hidden;
+   width: 100%;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate3d(-50%, -50%, 0);
+}
+.back_contbox .final {
+   width: 852px;
+   height: 237px;
+   background-image: url(../img/final.png);
+   margin: 0 auto;
+}
+.back_contbox .menu {
+   width: 688px;
+   height: 151px;
+   margin: 0 auto;
+   display: -webkit-flex;
+   align-items: center;
+   padding-top: 80px;
+}
+.back_contbox .menu a {
+   color: #79caf2;
+}
+.website a {
+   float: left;
+   width: 190px;
+   height: 58px;
+   line-height: 58px;
+   text-align: center;
+   margin-right: 26px;
+   border: 1px solid rgba(121, 202, 242, 0.6);
+}
+.download a {
+   float: left;
+   width: 247px;
+   height: 74px;
+   line-height: 25px;
+   text-align: center;
+   background: linear-gradient(to right, #3d4d99 0%, #3689b3 50%, #cc7a29 100%);
+}
+.download a p {
+   color: #fff;
+}
+.download a p:first-child {
+   margin-top: 14px;
+   font-size: 20px;
+   font-weight: 700;
+}
+.getli a {
+   float: left;
+   width: 190px;
+   height: 58px;
+   line-height: 58px;
+   text-align: center;
+   margin-left: 26px;
+   border: 1px solid rgba(121, 202, 242, 0.6);
+}
+/* 版权 */ 
+.copyright {
+   overflow: hidden;
+   background: url(../img/bg_b.jpg) repeat-x;
+   margin: 0 auto;
+   height: 170px;
+}
+.SDGCOPYRIGHT {
+   overflow: hidden;
+   padding: 0 300px;
+}
+.SDGCOPYRIGHT-logo {
+   float: left;
+   margin-top: 60px;
+   margin-right: 20px;
+}
+.SDGCOPYRIGHT h1 {
+   float: left;
+}
+.SDGCOPYRIGHT-con {
+   margin-top: 15px;
+   margin-bottom: 15px;
+   float: left;
+   font-size: 12px;
+}
+.SDGCOPYRIGHT-con p {
+   color: #888;
+   line-height: 20px;
+}
+.SDGCOPYRIGHT-con a {
+   color: #888;
+}
+.SDGCOPYRIGHT-con a:hover {
+   border-bottom: 1px solid #999;
+}
+.SDGCOPYRIGHT-con span::before {
+   content: '';
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   background: url(../img/beian.png) no-repeat;
+   background-size: 15px 15px;
+   vertical-align: middle;
+}
+.SDGCOPYRIGHT-priv {
+   float: right;
+   margin-top: 15px;
+}
